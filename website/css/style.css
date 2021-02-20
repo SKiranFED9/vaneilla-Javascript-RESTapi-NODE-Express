@@ -1,0 +1,58 @@
+/* Your style here */
+/* you are not allowed to use display:table* */
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.custDivBck{
+    background-color:#ebebeb;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 32%;
+    background-color:#ffffff;
+    display:inline-table;
+    margin:0.65%;;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .dot {
+    height: 80px;
+    width: 80px;
+    line-height: 75px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #fff;
+    
+    text-align: center;
+    background: #ffaec9;
+  }
+
+  .custSpace {
+    width:10px;
+  }
+
+  .custFontWht{
+    font-weight:600;
+  }
+
+  .custTableDim{
+      width:100%;
+  }
+  .custDivHght{
+      height:10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .card {
+      width:100%;
+    }
+  }
